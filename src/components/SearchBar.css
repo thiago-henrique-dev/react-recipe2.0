@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input {
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn {
+    background-color: orange;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.form-control {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+}

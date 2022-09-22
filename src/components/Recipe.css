@@ -1,0 +1,36 @@
+.container {
+    background-color: #ece6e6;
+    max-width: 1000px;
+    min-height: 100vh;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.container h2 {
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .9s;
+
+}
+
+.container h2:hover {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    transition: .5s;
+
+}
+
+.container .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+  
